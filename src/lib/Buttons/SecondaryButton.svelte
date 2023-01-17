@@ -1,0 +1,19 @@
+<button 
+    class=" text-DarkGrey text-center p-2 outline outline-offset-[-2px] outline-2 outline-DarkGrey m-1
+        hover:bg-[#ebebeb]
+        active:bg-SecondaryYellow 
+        active:text-DarkGrey 
+        active:shadow-button
+        active:outline-none
+        "
+        
+    >
+    Cancel
+</button>
+
+
+
+<!--
+
+outline-2 outline-offset-[2px] outline-DarkGrey
+-->

@@ -39,6 +39,10 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      'PrimaryBlue': "#0065bd",
+      'SecondaryBlue': '#00437e',
+      'SecondaryYellow': '#fdd522',
+      'DarkGrey': '#333333',
     }),
     columns: {
       auto: 'auto',
@@ -71,8 +75,20 @@ module.exports = {
     spacing: {
       px: '1px',
       0: '0px',
+      1: '0.5rem',
+      2: '1rem',
+      3: '1.5rem',
+      4: '2rem',
+      5: '2.5rem',
+      6: '3rem',
+      7: '3.5rem',
+      8: '4rem',
+      9: '4.5rem',
+      /* 
+      OLD STYLES
+      0: '0px',
       0.5: '0.125rem',
-      1: '0.25rem',
+      1: '0.rem',
       1.5: '0.375rem',
       2: '0.5rem',
       2.5: '0.625rem',
@@ -104,6 +120,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      */
     },
     animation: {
       none: 'none',
@@ -224,6 +241,7 @@ module.exports = {
       '2xl': '0 25px 50px -12px rgb(0 0 0 / 0.25)',
       inner: 'inset 0 2px 4px 0 rgb(0 0 0 / 0.05)',
       none: 'none',
+      button: '0 3px #333333',
     },
     boxShadowColor: ({ theme }) => theme('colors'),
     caretColor: ({ theme }) => theme('colors'),

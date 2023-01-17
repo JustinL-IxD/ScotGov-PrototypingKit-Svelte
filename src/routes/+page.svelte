@@ -1,19 +1,36 @@
 <script>
-    import H1 from '../lib/h1.svelte';
-    import H2 from '../lib/h2.svelte';
-    import H3 from '../lib/h3.svelte';
-    import H4 from '../lib/h4.svelte';
-    import H5 from '../lib/h5.svelte';
-    import LEADER from '../lib/leader.svelte';
-    import BODY from '../lib/body.svelte';
-    import SMALL from '../lib/small.svelte';
+    import H1 from '$lib/Typography/H1.svelte';
+    import H2 from '$lib/Typography/H2.svelte';
+    import H3 from '$lib/Typography/H3.svelte';
+    import H4 from '$lib/Typography/H4.svelte';
+    import H5 from '$lib/Typography/H5.svelte';
+    import Leader from '$lib/Typography/Leader.svelte';
+    import Body from '$lib/Typography/Body.svelte';
+    import Small from '$lib/Typography/Small.svelte';
+    import PrimaryButton from '$lib/Buttons/PrimaryButton.svelte';
+	import SecondaryButton from '$lib/Buttons/SecondaryButton.svelte';
+	import TextInput from '$lib/Forms/TextInput.svelte';
 </script>
 
-<H1>This is a heading one</H1>
-<H2>This is a heading two</H2>
-<H3>This is a heading three</H3>
-<H4>This is a heading four</H4>
-<H5>This is a heading five</H5>
-<LEADER>This is a leader</LEADER>
-<BODY>This is a body paragraph</BODY>
-<SMALL>This is a small paragraph</SMALL>
+<div>
+    <H1>This is a heading one</H1>
+    <H2>This is a heading two</H2>
+    <H3>This is a heading three</H3>
+    <H4>This is a heading four</H4>
+    <H5>This is a heading five</H5>
+    <Leader>This is a leader</Leader>
+    <Body>This is a body paragraph</Body>
+    <Small>This is a small paragraph</Small>
+</div>
+
+<div class="mt-8">
+    <SecondaryButton />
+    <PrimaryButton />
+</div>
+
+<div class="mt-8">
+    <TextInput />
+</div>
+
+
+
