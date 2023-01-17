@@ -1,0 +1,1 @@
+<h2 class="text-h2 font-bold"><slot /></h2>

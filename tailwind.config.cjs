@@ -8,8 +8,7 @@ module.exports = {
       sm: '640px',
       md: '768px',
       lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
+      xl: '1200px',
     },
     supports: {},
     colors: ({ colors }) => ({
@@ -362,12 +361,12 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Roboto',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
-        'Roboto',
         '"Helvetica Neue"',
         'Arial',
         '"Noto Sans"',
@@ -403,6 +402,14 @@ module.exports = {
       '7xl': ['4.5rem', { lineHeight: '1' }],
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
+      'h1' : ['2.75rem', { lineHeight: '3.5rem',}],
+      'h2' : ['1.875rem', { lineHeight: '2.5rem',}],
+      'h3' : ['1.375rem', { lineHeight: '2rem',}],
+      'h4' : ['1.1875rem', { lineHeight: '2rem',}],
+      'h5' : ['1rem', { lineHeight: '1.5rem',}],
+      'leader' : ['1.5rem', { lineHeight: '2.5rem',}],
+      'body' : ['1.1875rem', { lineHeight: '2rem',}],
+      'small' : ['1rem', { lineHeight: '1.5rem',}],
     },
     fontWeight: {
       thin: '100',
