@@ -242,6 +242,7 @@ module.exports = {
       inner: 'inset 0 2px 4px 0 rgb(0 0 0 / 0.05)',
       none: 'none',
       button: '0 3px #333333',
+      textInput: 'inset 0 0 0 2px',
     },
     boxShadowColor: ({ theme }) => theme('colors'),
     caretColor: ({ theme }) => theme('colors'),

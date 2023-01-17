@@ -4,8 +4,9 @@
 </script>
 
 <label class="text-body font-bold">First Name</label>
-<input type="text" class="block border-2 border-DarkGrey h-6 w-250 p-1
-    active:outline 
-    active:outline-2 
-    active:outline-SecondaryYellow
+<input type="text" class="block border-2 border-DarkGrey h-6 w-[350px] p-1
+    focus:outline 
+    focus:outline-2 
+    focus:outline-SecondaryYellow
+    focus:shadow-textInput
 "/>

@@ -10,6 +10,7 @@
     import PrimaryButton from '$lib/Buttons/PrimaryButton.svelte';
 	import SecondaryButton from '$lib/Buttons/SecondaryButton.svelte';
 	import TextInput from '$lib/Forms/TextInput.svelte';
+	import RadioButton from '$lib/Forms/RadioButton.svelte';
 </script>
 
 <div>
@@ -23,13 +24,16 @@
     <Small>This is a small paragraph</Small>
 </div>
 
-<div class="mt-8">
-    <SecondaryButton />
-    <PrimaryButton />
-</div>
+
 
 <div class="mt-8">
     <TextInput />
+    <RadioButton />
+</div>
+
+<div class="mt-8">
+    <SecondaryButton />
+    <PrimaryButton />
 </div>
 
 

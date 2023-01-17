@@ -1,5 +1,5 @@
 <button 
-    class=" text-DarkGrey text-center p-2 outline outline-offset-[-2px] outline-2 outline-DarkGrey m-1
+    class=" text-DarkGrey text-center p-2 outline outline-offset-[-2px] outline-2 outline-DarkGrey mr-1
         hover:bg-[#ebebeb]
         active:bg-SecondaryYellow 
         active:text-DarkGrey 
