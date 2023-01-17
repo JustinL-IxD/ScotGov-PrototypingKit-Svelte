@@ -13,6 +13,9 @@
 	import RadioButton from '$lib/Forms/RadioButton.svelte';
 </script>
 
+
+
+
 <div>
     <H1>This is a heading one</H1>
     <H2>This is a heading two</H2>
@@ -32,6 +35,15 @@
 </div>
 
 <div class="mt-8">
+    <SecondaryButton />
+    <PrimaryButton />
+</div>
+
+<div class="mt-8">
+    <H1>Adult Disability Payment</H1>
+    <H3>Something else</H3>
+    <Body>This is ADP</Body>
+    <TextInput />
     <SecondaryButton />
     <PrimaryButton />
 </div>

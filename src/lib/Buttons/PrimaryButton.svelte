@@ -5,5 +5,5 @@
         active:text-DarkGrey 
         active:shadow-button"
     >
-    Continue
+    Start
 </button>
