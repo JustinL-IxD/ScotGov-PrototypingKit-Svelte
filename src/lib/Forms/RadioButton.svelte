@@ -1,23 +1,19 @@
 <script>
-    let selectedOption = 'option1';
+    export let radioAnswer = "";
+    $: console.log(radioAnswer)
 </script>
 
-<style>
-    .form-radio:checked{
-        background-color: yellow;
-    }
-</style>
+<label class="block">
+    <input type="radio" name="exercise" value="yes" bind:group={radioAnswer}>
+    Yes, all the time
+</label>
+<label class="block">
+    <input type="radio" name="exercise" value="no" bind:group={radioAnswer}>
+    No, I never exercise
+</label>
+<label class="block">
+    <input type="radio" name="exercise" value="sometimes" bind:group={radioAnswer}>
+    Sometime I exercise
+</label>
 
 
-
-
-<div class="flex">
-    <label for="" class="inline-flex items-center">
-        <input type="radio" class="form-radio" name="options" value="option1">
-        <span class="ml-2">Option 1</span>
-    </label>
-    <label for="" class="inline-flex items-center">
-        <input type="radio" class="form-radio" name="options" value="option1">
-        <span class="ml-2">Option 1</span>
-    </label>
-</div>
