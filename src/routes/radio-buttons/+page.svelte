@@ -3,7 +3,7 @@
 	import RadioButton from "$lib/Forms/RadioButton.svelte";
 	import TextInput from "$lib/Forms/TextInput.svelte";
     import radioAnswer from "$lib/Forms/RadioButton.svelte";
-    $: console.log(radioAnswer);
+    
 </script>
 
 
