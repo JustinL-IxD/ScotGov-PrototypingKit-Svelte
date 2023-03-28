@@ -1,3 +1,8 @@
+<script lang="ts">
+    export let option1:string;
+    export let option2:string;
+</script>
+
 <style>
     .radio-label{
         font-family: "Roboto", sans-serif;
@@ -43,7 +48,8 @@
     }
 </style>
 
-<div class="flex flex-col">
+<div class="flex flex-col mb-6">
+    <!--
     {#each ['option 1', 'option 2', 'option 3'] as value (value)}
         <label class="radio-label mb-2">
             <input type="radio" class="radio-input" name="options" value="{value}" />
@@ -51,4 +57,15 @@
             {value}
         </label>
     {/each}
+    -->
+    <label class="radio-label mb-2">
+        <input type="radio" class="radio-input" name="options" value="{option1}" />
+        <div class="radio-container"></div>
+        {option1 ? option1 : "Enter your value"}
+    </label>
+    <label class="radio-label mb-2">
+        <input type="radio" class="radio-input" name="options" value="{option2}" />
+        <div class="radio-container"></div>
+        {option2 ? option2 : "Enter your value"}
+    </label>
 </div>

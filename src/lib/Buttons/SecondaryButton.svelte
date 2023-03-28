@@ -1,3 +1,7 @@
+<script lang="ts">
+    export let name:String;
+</script>
+
 <button 
     class=" text-DarkGrey text-center p-2 outline outline-offset-[-2px] outline-2 outline-DarkGrey mr-1
         hover:bg-[#ebebeb]
@@ -8,7 +12,7 @@
         "
         
     >
-    Cancel
+    {name ? name : "Cancel"}
 </button>
 
 

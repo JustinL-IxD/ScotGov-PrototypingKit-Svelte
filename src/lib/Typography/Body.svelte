@@ -1,1 +1,1 @@
-<p class="text-body"><slot /></p>
+<p class="text-body mb-6 max-w-[790px]"><slot /></p>
