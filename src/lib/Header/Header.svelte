@@ -1,5 +1,5 @@
 <script>
-    import logo from './SSDLogo.png';
+    const logo = new URL('./SSDLogo.png', import.meta.url).href
 </script>
 
 
