@@ -12,7 +12,12 @@
 	import TextInput from '$lib/Forms/TextInput.svelte';
     import RadioButtons from '$lib/Forms/RadioButtons.svelte';
 	import Textarea from '$lib/Forms/Textarea.svelte';
+	import PartOf from '$lib/Header/PartOf.svelte';
 </script>
+
+<div>
+    <PartOf />
+</div>
 
 <div>
     <H1>This is a heading one</H1>
