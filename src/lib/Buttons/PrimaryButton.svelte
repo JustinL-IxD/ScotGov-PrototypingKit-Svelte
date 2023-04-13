@@ -5,11 +5,11 @@
 
 
 <button 
-    class="bg-PrimaryBlue text-white text-center p-2 m-1
+    class="bg-PrimaryBlue text-white text-center pr-3 pl-3 pt-2 pb-2 mr-1 
         hover:bg-SecondaryBlue 
         active:bg-SecondaryYellow 
         active:text-DarkGrey 
         active:shadow-button"
     >
-    <a href="/{destination}">{name ? name : "Start"}</a>
+    <a href="./{destination}">{name ? name : "Start"}</a>
 </button>

@@ -1,9 +1,10 @@
 <script lang="ts">
     export let name:String;
+    export let destination:String;
 </script>
 
 <button 
-    class=" text-DarkGrey text-center p-2 outline outline-offset-[-2px] outline-2 outline-DarkGrey mr-1
+    class=" text-DarkGrey text-center pr-3 pl-3 pt-2 pb-2 mr-1  outline outline-offset-[-2px] outline-2 outline-DarkGrey mr-1
         hover:bg-[#ebebeb]
         active:bg-SecondaryYellow 
         active:text-DarkGrey 
@@ -12,7 +13,7 @@
         "
         
     >
-    {name ? name : "Cancel"}
+    <a href="./{destination}">{name ? name : "Cancel"}</a>
 </button>
 
 
