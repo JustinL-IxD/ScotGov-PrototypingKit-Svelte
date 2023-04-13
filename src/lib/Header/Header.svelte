@@ -3,7 +3,7 @@
     //import logo from '/ssdlogo.png';
 
 
-  import logo from '$lib/assets/ssdlogo.png';
+  import logo from '$lib/assets/ssdlogo2.png';
 
 </script>
 
