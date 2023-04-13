@@ -1,6 +1,6 @@
 <script>
-    //const logo = new URL('SSDLogo.png', import.meta.url).href
-    import logo from '/ssdlogo.png';
+    const logo = new URL('ssdlogo.png', import.meta.url).href
+    //import logo from '/ssdlogo.png';
 </script>
 
 
