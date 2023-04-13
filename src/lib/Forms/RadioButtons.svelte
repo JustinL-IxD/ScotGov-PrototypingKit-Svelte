@@ -6,6 +6,7 @@
 <style>
     .radio-label{
         font-family: "Roboto", sans-serif;
+        font-size: 18px;
         display: flex;
         align-items: center;
         cursor: pointer;
@@ -58,6 +59,7 @@
         </label>
     {/each}
     -->
+    <p class="text-body font-bold mb-2 max-w-[790px]">Name of question</p>
     <label class="radio-label mb-2">
         <input type="radio" class="radio-input" name="options" value="{option1}" />
         <div class="radio-container"></div>

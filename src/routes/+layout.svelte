@@ -5,5 +5,5 @@
 </script>
 
 <Header />
-<PartOf />
+<PartOf name="Pension Age Disability Payment" />
 <slot />
