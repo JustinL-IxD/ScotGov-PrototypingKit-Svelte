@@ -1,5 +1,5 @@
 <script>
-    import logo from '$lib/assets/SSDLogo.png';
+    import logo from './SSDLogo.png';
 </script>
 
 
