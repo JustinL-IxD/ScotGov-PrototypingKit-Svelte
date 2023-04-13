@@ -11,6 +11,7 @@
 	import SecondaryButton from '$lib/Buttons/SecondaryButton.svelte';
 	import TextInput from '$lib/Forms/TextInput.svelte';
     import RadioButtons from '$lib/Forms/RadioButtons.svelte';
+	import Textarea from '$lib/Forms/Textarea.svelte';
 </script>
 
 
@@ -34,6 +35,7 @@
 </div>
 
 <div class="mt-8">
+    <Textarea />
 </div>
 
 <div class="mt-8">
@@ -41,6 +43,9 @@
     <H3>Something else</H3>
     <Body>This is ADP</Body>
 </div>
+
+
+
 
 
 
