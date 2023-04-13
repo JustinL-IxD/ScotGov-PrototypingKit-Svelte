@@ -10,7 +10,7 @@
     import PrimaryButton from '$lib/Buttons/PrimaryButton.svelte';
 	import SecondaryButton from '$lib/Buttons/SecondaryButton.svelte';
 	import TextInput from '$lib/Forms/TextInput.svelte';
-	import RadioButton from '$lib/Forms/RadioButton.svelte';
+    import RadioButtons from '$lib/Forms/RadioButtons.svelte';
 </script>
 
 
@@ -30,22 +30,16 @@
 
 
 <div class="mt-8">
-    <TextInput />
-    <RadioButton />
+    <RadioButtons option1="test option" option2="test option 2" />
 </div>
 
 <div class="mt-8">
-    <SecondaryButton />
-    <PrimaryButton />
 </div>
 
 <div class="mt-8">
     <H1>Adult Disability Payment</H1>
     <H3>Something else</H3>
     <Body>This is ADP</Body>
-    <TextInput />
-    <SecondaryButton />
-    <PrimaryButton />
 </div>
 
 
