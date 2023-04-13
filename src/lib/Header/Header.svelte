@@ -1,6 +1,10 @@
 <script>
-    const logo = new URL('ssdlogo.png', import.meta.url).href
+    //const logo = new URL('ssdlogo.png', import.meta.url).href
     //import logo from '/ssdlogo.png';
+
+
+  import logo from '$lib/assets/ssdlogo.png';
+
 </script>
 
 
