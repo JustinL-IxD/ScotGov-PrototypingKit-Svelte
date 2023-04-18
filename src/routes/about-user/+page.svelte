@@ -1,8 +1,8 @@
 <script>
 	import PrimaryButton from "$lib/Buttons/PrimaryButton.svelte";
-import SecondaryButton from "$lib/Buttons/SecondaryButton.svelte";
-import RadioButtons from "$lib/Forms/RadioButtons.svelte";
-import TextInput from "$lib/Forms/TextInput.svelte";
+    import SecondaryButton from "$lib/Buttons/SecondaryButton.svelte";
+    import RadioButtons from "$lib/Forms/RadioButtons.svelte";
+    import TextInput from "$lib/Forms/TextInput.svelte";
     import H1 from "$lib/Typography/H1.svelte";
 </script>
 
