@@ -7,7 +7,7 @@ import TextInput from "$lib/Forms/TextInput.svelte";
 </script>
 
 <H1>About User</H1>
-<TextInput heading="first name" />
+<TextInput heading="first name"/>
 <RadioButtons option1="Option 1 text" option2="Option 2 text" />
 <SecondaryButton name="Back" destination="about-the-benefit" /> 
 <PrimaryButton name="Continue" destination="about-scotgov" />
